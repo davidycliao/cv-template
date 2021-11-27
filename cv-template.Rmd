@@ -11,10 +11,10 @@ author: David, Yen-Chieh Liao
 jobtitle: "PhD Candidate, Department of Government at the University of Essex"
 address: "Wivenhoe Park, Colchester, CO4 3SQ, UK"
 knit: (function(inputFile, encoding) { 
-      out_dir <- 'cv_show';
+      out_dir <- 'cv-template-outdir';
       rmarkdown::render(inputFile,
                         encoding=encoding, 
-                        output_file=file.path(dirname(inputFile), out_dir, 'cv-template.pdf')) })
+                        output_file=file.path(dirname(inputFile), out_dir, 'cv.pdf')) })
 
 fontawesome: yes
 email: yl17124@essex.ac.uk 
@@ -32,7 +32,7 @@ urlcolor: blue
 ---
 
 ```{r include=FALSE}
-out_dir <- "cv_show"
+out_dir <- "cv-template-outdir"
 if(!file.exists(out_dir)) {dir.create(out_dir) }
 ```
 
