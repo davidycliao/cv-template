@@ -1,0 +1,162 @@
+---
+output: 
+  pdf_document:
+    latex_engine: pdflatex
+    template: svm-latex-cv.tex
+geometry: margin=1in
+
+title: "Curriculum Vitae"
+author: David, Yen-Chieh Liao
+
+jobtitle: "PhD Candidate, Department of Government at the University of Essex"
+address: "Wivenhoe Park, Colchester, CO4 3SQ, UK"
+
+knit: (function(inputFile, encoding) { 
+      out_dir <- 'cv_show';
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), out_dir, 'CV.pdf')) })
+
+fontawesome: yes
+email: yl17124@essex.ac.uk 
+github: davidycliao
+# phone: ""
+web: davidycliao.github.io
+updated: yes
+
+# keywords:"
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 14pt
+linkcolor: blue
+urlcolor: blue
+---
+
+&nbsp;
+
+# __EMPLOYMENT__
+- Research Fellow at the Chair of Comparative Politics of the University of Bamberg \hfill Dec 2021 – 
+
+# __EDUCATION__ 
+
+- PhD Candidate, Department of Government at University of Essex \hfill Oct 2017 – Expected Jul 2022
+
+- MA in Public Administration, National Taipei University \hfill Sep 2010 – Feb 2014
+
+- BA in Public Administration, National Taipei University \hfill Jun 2005 – Aug 2010 
+
+# __IN PROGRESS__
+- “Electoral Incentives and Pork: Exploring Parliamentary Questions Using Convolutional Neural Networks” (Scheduled to present in the poster session at  2021 Machine Learning Summer School and 2021 Latin America PolMeth V in Mexico)
+
+- “Income Inequality, Party Misperception and Democracy Distrust”. with Royce Carroll (Essex), Li Tang (Essex), Tzu-Ping Liu (University of Taipei) 
+
+- “Estimating Fiscal Policy Objectives in the UK with Text Analysis”. with Li Tang (University of Birmingham) and Pei Kuang (University of Birmingham)
+
+- “Measuring Party Officials during the Cultural Revolution: An Application of Machine Learning Approach”. with Winnie Xia (Essex) and Yi-Nung Tsai (National Chengchi University)
+
+#  __WORKING PAPERS__
+- “Factionalism and the Red Guards under Mao’s China: Ideal Point Estimation Using Text Data.” with Yi-Nung Tsai (National Chengchi University), Dechun Zhang (Leiden University) (presented in 2021 Asian Polmeth Presentation VIII; 2021 EPSA)  [\faGlobe](https://github.com/davidycliao/redgaurds) 
+
+- “Electoral Reform and Disunited Polarization: Evidence from Legislative Roll Calls.” with Li Tang (Essex) (presented in 2020 APSA) [\faGlobe](https://github.com/davidycliao/erdp) 
+
+- “Mayors and Pork Barrel: Legislative Experience Bias in Intergovernmental Transfers to Taiwan Municipalities.” (presented in 2019 EPSA)  [\faGlobe](https://github.com/davidycliao/pcpb) 
+
+# __EXPERIENCE__
+- __Teaching Assistant__
+- Teaching Assistant to Dr. Johannes Karreth (Ursinus College) 2L Introduction to Quantitative Methods in R, *$54^{th}$ Essex Summer School in Social Science Data Analysis*, July 26 – August 6 2021
+
+- Teaching Assistant to Prof. Ken Benoit (LSE) Quantitative Text Analysis Using R and Dr. Nicole Baerg (University of Essex) Linking Theory with Text as Data, *Empirical Implications of Theoretical Models Europe (EITM Europe)*, Jun 14 - Jun 25 2021
+
+- Teaching Assistant to Dr. Akitaka Matsuo (University of Essex), VB21 - Machine Learning with Big Data for Social Scientists, *$15^{th}$ ECPR Summer School in Methods and Techniques*, Aug 10 - 14 2020
+
+- Teaching Assistant to Prof. Royce Carroll, 3L Scaling Methods for Social Science: Measuring Patterns and Preferences in Surveys and Behavior, *$53^{rd}$ Essex Summer School in Social Science Data Analysis*, Aug 10 – 21 2020
+
+- Teaching Assistant to Dr. Iulia Cioroianu (University of Bath), 1B Introduction to Quantitative Text Analysis, *$53^{rd}$ Essex Summer School in Social Science Data Analysis*, Jul 13 - 24 2020
+
+- Teaching Assistant to Dr. Raymond Hick (Columbia University), 1B Introduction to Quantitative Text Analysis, *$52^{nd}$ Essex Summer School in Social Science Data Analysis*, Jul 13 - 24 2019
+
+- __Research Assistant__
+- Graduate Research Assistant to Prof. Royce Carroll, University of Essex, Jun 2019 – Oct 2019 
+
+- Senior Research Assistant to Prof. Chung-li Wu, Institute of Political Science, Academia Sinica, Feb 2014 – Jul 2017
+
+- Graduate Research Assistant to Prof. Ching-jyuhn Luor, Department of Public Administration and Policy, National Taipei University in Taiwan, Jul 2010 - Jan 2014
+
+# __ADDITIONAL TRAINING__  
+
+- 2021 Standard Student Program, _Machine Learning Summer Schools (Taipei)_, August 2 - August 20, 2021
+
+- 2021 Quantitative Methods for Causal Inference and Policy Evaluation (taught by Dr. Adam Zelizer), _Essex Summer School in Social Science Data Analysis_, 25th Jul - 6 Aug 2021
+
+- 2021 Advanced Methods for Text-as-Data: Natural Language Processing (taught by Prof. Burt Monroe), _Essex Summer School in Social Science Data Analysis_, 25th Jul - 6 Aug 2021
+
+- 2019 Introduction to Bayesian Analysis for the Social Sciences (taught by Prof. Ryan Bakker), _Essex Summer School in Social Science Data Analysis_, 22 Jul – 4 Aug 2019
+
+- 2018 Ideal Point Estimation and Scaling Methods (taught by Prof. Royce Carroll), _Essex Summer School in Social Science Data Analysis_, 6 - 17 Aug 2018
+
+- 2018 Generalized Linear Models (taught by Dr. Patrick Shea), _Essex Summer School in Social Science Data Analysis_, 22 Jul - 2 Aug 2018
+
+
+# SERVICES TO ACADEMIC ACTIVITIES 
+
+- __Manuscript Referee__
+- Political Studies Review; Economics - The Open-Access, Open-Assessment Journal
+
+- __Membership__
+- 2019 EPSA; 2020 MPSA; 2020 APSA; 2021 EPSA
+
+- __Seminar Organiser__
+- Co-organizer for POPE Research Group (Public Opinion, Parties and Elections) for early career researchers at Department of Government, the University of Essex, Oct 2019 - May 2020. 
+
+- Co-organizer for HEROES (Helping Each-other Research On Empirical Subjects) / PhD Colloquium at Department of Government, the University of Essex, Oct 2018 - May 2019. 
+
+
+# __SKILLS__
+- __Programmings__ \textsf{R},  \textsf{Python} (natural language processing, machine learning, and deep learning with Tensorflow)
+
+- __Database__  \textsf{MySQL} & \textsf{MySQLWorkbench}
+
+- __Editing__  \LaTeX, \textsf{HTML} & \textsf{CSS} (working knowledge of web editing and webscraping), \textsf{Hugo}
+
+- __High Performance Computing__ \textsf{AWS}, \textsf{CERES} (HPC, University of Essex)
+
+
+# __GRANTS__
+
+- Awarded 2021 Taiwanese Overseas Pioneers Grants (**TOP Grants**), Taiwan’s Ministry of Science & Technology (MOST) and The Science & Technology Policy Research and Information Center (STPI) of the National Applied Research Laboratories of Taiwan (August 2021- July 2022) (USD$32,000)
+
+- Received 2019 Departmental Fund (£450) and Travel Grant from Taiwan’s Council of Indigenous Peoples for attending 2019 EPSA Conference (USD$630) 
+
+- Received The 2018 Attendance Scholarships (£250) to Essex Summer School in Social Science Data Analysis
+
+- Awarded The Taiwan Government Scholarship to Study the PhD Programme in the Field of Legislative Studies and Comparative Politics in the UK (August 2017- July 2021), USD$168,000 
+
+# TOOLKIT 
+
+- __[asmcjr](https://uniofessex.github.io/asmcjr/authors.html)__ (with Dave Armstrong, Royce Carroll, Christopher Hare, Ryan Bakker, Keith Poole, Howard Rosenthal)
+- The `asmcjr` package supports the book “___2nd Analyzing Spatial Models of Choice and Judgment___”, and streamlined functions for scaling and visualising estimates with ggplot2. 
+
+- __[legisCrawler](https://github.com/davidycliao/legisCrawler)__ (with Calvin Yu-Ceng Liao) 
+
+- An automation web crawling framework for retrieving parliamentary questions on The Website of Legislative Yuan (https://lis.ly.gov.tw/) based on Selenium & Scrapy and Chrome browser.
+
+- __[bisCrawler](https://github.com/davidycliao/bisCrawler)__ (with Li Tang) 
+
+- An automation web crawling framework for retrieving for Extracting Central Bankers' Speeches on the Website of Bank for International Settlements (https://www.bis.org) based on Selenium and Chrome browser.
+
+- __[legisTaiwan](https://github.com/davidycliao/legisTaiwan)__ (coming soon) 
+- An R package for searching and retrieving the titles of budgets, the legislation, the speeches and legislator demographics from Taiwan Parliamentary Data Catalogs via Parliamentary Library API.
+ 
+ 
+# REFERENCE 
+
+- __Prof. Royce Carroll__, Professor in Department of Government, The University of Essex and Director of The Essex Summer School in Social Science Data Analysis.
+
+- __Dr. Nicole Baerg__, Senior Lecturer (Associate Professor) in Department of Government, The University of Essex and Co-Director of The Essex Summer School in Social Science Data Analysis.
+
+- __Dr. Pei Kuang__, Associate Professor in Macroeconomics, University of Birmingham  
+
+- __Prof. Chung-li Wu__, Research Fellow (Professor) and Director, Institute of Political Science, Academia Sinica, Taipei. 
+
+- __Dr. Tamir Libel__, Senior Lecturer (Associate Professor) at the Swedish Defence University
+
