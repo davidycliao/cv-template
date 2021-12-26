@@ -8,8 +8,8 @@ geometry: margin=1in
 title: "Curriculum Vitae"
 author: David, Yen-Chieh Liao
 
-jobtitle: "PhD Candidate, Department of Government at the University of Essex"
-address: "Wivenhoe Park, Colchester, CO4 3SQ, UK"
+jobtitle: "Research Fellow at the Chair of Comparative Politics"
+address: "Otto-Friedrich-University Bamberg"
 knit: (function(inputFile, encoding) { 
       out_dir <- 'cv-template-outdir';
       rmarkdown::render(inputFile,
@@ -36,27 +36,49 @@ out_dir <- "cv-template-outdir"
 if(!file.exists(out_dir)) {dir.create(out_dir) }
 ```
 
+
 &nbsp;
 
-# __EMPLOYMENT__
-- Research Fellow at the Chair of Comparative Politics of the University of Bamberg \hfill Dec 2021 – 
+# __RESEARCH INTERESTS__ 
+
+- distributive politics, legislative politics, quantitative study of ideology and political attitudes, the application of computational social science.
+
 
 # __EDUCATION__ 
 
-- PhD Candidate, Department of Government at University of Essex \hfill Oct 2017 – Expected Jul 2022
+- PhD Candidate at Department of Government, University of Essex \hfill Nov 2018 – Expected Jul 2022
+
+- MPhil/PhD Student at Department of Government, University of Essex \hfill Oct 2017 – Nov 2018
 
 - MA in Public Administration, National Taipei University \hfill Sep 2010 – Feb 2014
 
 - BA in Public Administration, National Taipei University \hfill Jun 2005 – Aug 2010 
 
+# __ADDITIONAL TRAINING__  
+
+- 2021 Standard Student Program, _Machine Learning Summer Schools (Taipei)_, August 2 - August 20, 2021
+
+- 2021 Quantitative Methods for Causal Inference and Policy Evaluation (taught by Dr. Adam Zelizer), _Essex Summer School in Social Science Data Analysis_, 25th Jul - 6 Aug 2021
+
+- 2021 Advanced Methods for Text-as-Data: Natural Language Processing (taught by Prof. Burt Monroe), _Essex Summer School in Social Science Data Analysis_, 25th Jul - 6 Aug 2021
+
+- 2019 Introduction to Bayesian Analysis for the Social Sciences (taught by Prof. Ryan Bakker), _Essex Summer School in Social Science Data Analysis_, 22 Jul – 4 Aug 2019
+
+- 2018 Ideal Point Estimation and Scaling Methods (taught by Prof. Royce Carroll), _Essex Summer School in Social Science Data Analysis_, 6 - 17 Aug 2018
+
+- 2018 Generalized Linear Models (taught by Dr. Patrick Shea), _Essex Summer School in Social Science Data Analysis_, 22 Jul - 2 Aug 2018
+
 # __IN PROGRESS__
-- “Electoral Incentives and Pork: Exploring Parliamentary Questions Using Convolutional Neural Networks” (Scheduled to present in the poster session at  2021 Machine Learning Summer School and 2021 Latin America PolMeth V in Mexico)
+- “Electoral Incentives and Pork: Exploring Parliamentary Questions Using Convolutional Neural Networks” (Scheduled to present in the poster session at  2021 Machine Learning Summer School)
 
 - “Income Inequality, Party Misperception and Democracy Distrust”. with Royce Carroll (Essex), Li Tang (Essex), Tzu-Ping Liu (University of Taipei) 
 
-- “Estimating Fiscal Policy Objectives in the UK with Text Analysis”. with Li Tang (University of Birmingham) and Pei Kuang (University of Birmingham)
+- “Estimating Fiscal Policy Objectives in the UK with Text Analysis”. with Li Tang (Essex) and Pei Kuang (University of Birmingham)
 
-- “Measuring Party Officials during the Cultural Revolution: An Application of Machine Learning Approach”. with Winnie Xia (Essex) and Yi-Nung Tsai (National Chengchi University)
+- “Topic Models for Short Text”. with Julia, Ju Yuon Park (Essex)
+
+- “Measuring China’s Online Nationalists on Weibo”. with Dechun Zhang (Leiden University)
+
 
 #  __WORKING PAPERS__
 - “Factionalism and the Red Guards under Mao’s China: Ideal Point Estimation Using Text Data.” with Yi-Nung Tsai (National Chengchi University), Dechun Zhang (Leiden University) (presented in 2021 Asian Polmeth Presentation VIII; 2021 EPSA)  [\faGlobe](https://github.com/davidycliao/redgaurds) 
@@ -85,20 +107,6 @@ if(!file.exists(out_dir)) {dir.create(out_dir) }
 - Senior Research Assistant to Prof. Chung-li Wu, Institute of Political Science, Academia Sinica, Feb 2014 – Jul 2017
 
 - Graduate Research Assistant to Prof. Ching-jyuhn Luor, Department of Public Administration and Policy, National Taipei University in Taiwan, Jul 2010 - Jan 2014
-
-# __ADDITIONAL TRAINING__  
-
-- 2021 Standard Student Program, _Machine Learning Summer Schools (Taipei)_, August 2 - August 20, 2021
-
-- 2021 Quantitative Methods for Causal Inference and Policy Evaluation (taught by Dr. Adam Zelizer), _Essex Summer School in Social Science Data Analysis_, 25th Jul - 6 Aug 2021
-
-- 2021 Advanced Methods for Text-as-Data: Natural Language Processing (taught by Prof. Burt Monroe), _Essex Summer School in Social Science Data Analysis_, 25th Jul - 6 Aug 2021
-
-- 2019 Introduction to Bayesian Analysis for the Social Sciences (taught by Prof. Ryan Bakker), _Essex Summer School in Social Science Data Analysis_, 22 Jul – 4 Aug 2019
-
-- 2018 Ideal Point Estimation and Scaling Methods (taught by Prof. Royce Carroll), _Essex Summer School in Social Science Data Analysis_, 6 - 17 Aug 2018
-
-- 2018 Generalized Linear Models (taught by Dr. Patrick Shea), _Essex Summer School in Social Science Data Analysis_, 22 Jul - 2 Aug 2018
 
 
 # SERVICES TO ACADEMIC ACTIVITIES 
@@ -156,11 +164,12 @@ if(!file.exists(out_dir)) {dir.create(out_dir) }
 
 - __Prof. Royce Carroll__, Professor in Department of Government, The University of Essex and Director of The Essex Summer School in Social Science Data Analysis.
 
-- __Dr. Nicole Baerg__, Senior Lecturer (Associate Professor) in Department of Government, The University of Essex and Co-Director of The Essex Summer School in Social Science Data Analysis.
+- __Dr. Nicole Baerg__, Senior Researcher at the Bank of England and Senior Lecturer (Associate Professor) in Department of Government, University of Essex
 
 - __Dr. Pei Kuang__, Associate Professor in Macroeconomics, University of Birmingham  
 
 - __Prof. Chung-li Wu__, Research Fellow (Professor) and Director, Institute of Political Science, Academia Sinica, Taipei. 
 
 - __Dr. Tamir Libel__, Senior Lecturer (Associate Professor) at the Swedish Defence University
+
 
